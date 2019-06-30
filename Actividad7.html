@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        width: 100%;
+        display: inline-flex;
+    }
+    .Izquierda{
+        text-align: left;
+        width: 15%;
+        border: 5px solid yellow;
+    }
+    .Derecha{
+        border: 3px solid red;
+        margin-left: 25%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        text-align: center;
+        width: 60%;
+        display: block;
+    }
+    
+    .derechaarriba{
+        width: 70%;
+        display: inline-flex;
+    }
+    .derechaabajo{
+        width: 70%;
+        display: inline-flex;
+    }
+    
+    .tamano{
+        width: 50%;
+    }
+    
+    .borde1{
+        background: #2fa9a9;
+        border-left: 1px solid;
+        border-bottom: 3px solid;
+        border-right: 3px solid;
+        border-top: 1px solid;
+    }
+
+    .borde1 h2{
+        color: #fff;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .borde3 h2{
+        color: #fff;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .borde1 ul{
+        color: #fff;
+        text-align: left;
+    }
+
+    .borde3 ol{
+        color: #fff;
+        text-align: left;
+    }
+    
+    .borde2{
+        border-left: 3px solid;
+        border-bottom: 3px solid;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        display: inline-grid;
+        background: orange;
+    }
+    
+    .borde2 h5{
+        display: inline-grid;
+        text-align: left;
+        padding-left: 30px;
+        width: 60%;
+        color:#fff;
+    }
+
+    .borde2 h5 label{
+        text-align: right;
+    }
+
+    .borde3{
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+        border-right: 3px solid;
+        border-top: 3px solid;
+        background: red;
+    }
+    
+    .borde4{
+        border-left: 3px solid;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        border-top: 3px solid;
+    }
+
+    .mesfecha{
+        color:#fff;
+        display: inline-flex;
+        text-align: center;
+    }
+    .mesfecha h1{
+        margin: 0;
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    .messolo{
+        width: 50%;
+        text-align: right;
+    }
+    
+</style>
+<body>
+    <section>
+        <div class="Izquierda">
+            <table>
+                <tr>
+                    <h2>Factures</h2>
+                </tr>
+                <tr>
+                    <ul>
+                        <li>Link1</li>
+                        <li>Link2</li>
+                        <li>Link3</li>
+                    </ul>
+                </tr>
+                <tr> 
+                    <Label>
+                        Important interview <br>
+                        3:00-4:00 <br>
+                        December 15
+                    </Label>
+                </tr> 
+                <tr>
+                    <H2>TODO</H2> 
+                </tr>
+                <tr>
+                    <ol>
+                        <li>Build Websites</li>
+                        <li>Build apps</li>
+                        <li>Build games</li>
+                    </ol>
+                </tr>
+                <tr>
+                    <img src="ImagenesA7/diagramaBarras.jpg"width="100px" height="100px">
+                </tr>
+            </table>
+        </div>
+        <div class="Derecha">
+            <div class="derechaarriba">
+                <div class="tamano borde1">
+                    <h2>Factures</h2>
+                    <ul>
+                        <li>Link1</li>
+                        <li>Link2</li>
+                        <li>Link3</li>
+                    </ul>
+                </div>
+                <div  class="tamano borde2">
+                    <h5>
+                        Important interview <br>
+                        <label>3:00-4:00 </label>
+                    </h5>
+                    <div class="mesfecha">
+                        <div class="messolo"><label>December</label></div>
+                        
+                        <div><h1>15</h1></div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="derechaabajo">
+                <div  class="tamano borde3">
+                    <h2>TODO</h2>
+                    <ol>
+                        <li>Build Websites</li>
+                        <li>Build apps</li>
+                        <li>Build games</li>
+                    </ol>
+                </div>
+                <div  class="tamano borde4">
+                    <img src="ImagenesA7/diagramaBarras.jpg"width="250px" height="200px">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
